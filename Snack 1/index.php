@@ -26,13 +26,13 @@ $matchweek = [ // primo array che contiene le partite
 
   var_dump($matchweek);
 
+  /* Stampa fuori da HTML */
   for ($i = 0; $i < count($matchweek); $i++) {
 
     echo $matchweek[$i]['Host'] . ' - ' . $matchweek[$i]['guest'] . ' |  ' . $matchweek[$i]['pointHost'] . '-' . $matchweek[$i]['pointGuest'];
-}
+  }
+
 ?>
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -43,6 +43,18 @@ $matchweek = [ // primo array che contiene le partite
     <title>Snack 1</title>
 </head>
 <body>
+
+    <!-- Stampa dentro l'HTML -->
+<?php for ($i = 0; $i < count($matchweek); $i++) { ?>
+        <ul>
+            <li><?php echo $matchweek[$i]['Host'] . ' - ' . $matchweek[$i]['guest'] . ' | ' . $matchweek[$i]['pointHost'] . '-' . $matchweek[$i]['pointGuest'];
+                ?>
+            </li>
+        </ul>
+
+    <?php
+    }
+?>
 
 
   
