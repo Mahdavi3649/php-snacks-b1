@@ -38,7 +38,7 @@
        body{ background-color: #ede4f2;
              text-align: center;
             }
-       h1{color:#723096}
+        h1{color:#723096}
 
     </style>
 </head>
