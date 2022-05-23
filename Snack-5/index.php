@@ -17,10 +17,11 @@
     <title>Snack 5</title>
 </head>
 <body>
+   <h2>Articolo</h2>
 
    <?php foreach ($textArray as $value) { ?>
 
-         <h3><?php echo $value; ?></h3>
+         <h5><?php echo $value; ?></h5>
 
    <?php } ?>
 
