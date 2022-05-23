@@ -5,6 +5,7 @@
  $text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odio explicabo distinctio fuga molestiae, mollitia provident quo nihil tempora fugiat, minus aperiam omnis dicta alias. aliquam incidunt beatae ipsam enim illo, velit iusto cum in qui! Non expedita sapiente blanditiis tempora. rem impedit eos beatae fugiat nobis accusantium, animi soluta.";
 
  $textArray = explode('.', $text);
+ //var_dump($textArray)
 
 ?>
 
