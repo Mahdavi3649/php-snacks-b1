@@ -18,16 +18,11 @@
 </head>
 <body>
 
-<?php 
+   <?php foreach ($textArray as $value) { ?>
 
-   foreach ($textArray as $value) {
-      echo "<h4> $value </h4>";
-   }
+         <h3><?php echo $value; ?></h3>
 
-?>
+   <?php } ?>
 
-
- 
-    
 </body>
 </html>
